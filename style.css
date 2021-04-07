@@ -1,0 +1,49 @@
+.body{
+   background-color:whitesmoke
+}
+
+.menu{
+    display:flex;
+    color:aqua;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family:fantasy;
+    font-weight: 400;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color:gray;
+    width: 310px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 50px;
+    margin: 100px;
+}
+
+.bodyImg{
+    background-image: url("background.jpg");
+    width: 100%;
+    height:300;
+    
+}
+
+a:link{
+    color: greenyellow;
+}
+
+a:visited{
+    color: indigo;
+}
+
+
